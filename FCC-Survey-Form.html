@@ -13,17 +13,18 @@
 
         <section id="mainform">
             <form id="survey-form">
+                <!-- Input name -->
                 <p>Name</p>
                 <input type="text" id="name" class="form-control" name="name" placeholder="Enter name here..." required>
-
+                <!-- Input Email -->
                 <p>Email</p>
                 <input type="email" id="email" name="email" class="form-control" placeholder="Enter email here..."
                     required>
-
+                <!-- Input Age (only numbers) -->
                 <p>Age</p>
                 <input type="number" id="number" class="form-control" name="age" min="0" max="99"
                     placeholder="Enter age here..." required>
-
+                <!-- Dropdown menu -->
                 <p>What kind of work do you do?</p>
                 <select id="dropdown" class="form-control" name="work" required>
                     <option disabled selected value>Select current work</option>
@@ -32,7 +33,7 @@
                     <option value="student">Full Time Learner</option>
                     <option value="student">Other</option>
                 </select>
-
+                <!-- Radio Buttons -->
                 <p>Would you recommend Froeyland.com to a friend?</p>
                 <label>
                     <input type="radio" id="definetly" class="input-radio" name="recommend" value="definetly" />
@@ -49,7 +50,7 @@
 
 
 
-
+                <!-- Dropdown manu -->
                 <p>What is your favourite feature of Froeyland.com?</p>
                 <select id="favorite" class="form-control" name="favorite" required>
                     <option disabled selected value>Select an option</option>
@@ -59,7 +60,7 @@
                     <option value="test1">test4</option>
                 </select>
 
-
+                <!-- Checkboxes -->
                 <p>What would you like to see improved</p>
 
                 <label><input type="checkbox" id="test1" class="input-checkbox" name="improved"
@@ -73,11 +74,11 @@
 
                 <label><input type="checkbox" id="test4" class="input-checkbox" name="improved"
                         value="test4">Test4</label>
-
+                    <!-- Large text box/textarea -->
                 <p>Any comments?</p>
                 <textarea id="comments" class="form-control" name="comments"
                     placeholder="Enter comments here..."></textarea>
-
+                    <!-- Submit button -->
                 <input type="submit" id="submit" value="Submit">
 
             </form>
